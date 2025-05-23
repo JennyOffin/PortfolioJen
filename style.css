@@ -23,6 +23,7 @@ body {
   width: 100%;
   color: white;
   padding: 15px;
+  position: fixed;
 }
 
 .navbar nav {
@@ -31,12 +32,14 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #eee;
+
 }
 
 .navbar .logo {
   font-weight: 700;
   font-size: 1.5rem;
   color: whitesmoke;
+  font-style: italic;
 }
 
 .navbar ul {
