@@ -23,8 +23,6 @@ body {
   width: 100%;
   color: white;
   padding: 15px;
- 
-  border-radius: 50px;
 }
 
 .navbar nav {
@@ -88,6 +86,8 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .hero-content{
   display: flex;
@@ -97,18 +97,19 @@ body {
   padding-top: 90px;
   justify-content: center;
   text-align: center;
+
 }
 
 .hero-image{
  width: 40%;
- padding-right: 100px
+ padding-right: 100px;
  /* height: 90px */
 }
 
 .hero-image img{
   object-fit: cover;
   height: 500px;
-  width: 100%
+  width: 100%;
 }
 
 .resume-button{
@@ -123,7 +124,7 @@ body {
 
 .resume-button a{
   text-decoration: none;
-  color: white
+  color: white;
 }
 
 .resume-button:hover{
@@ -227,13 +228,22 @@ body {
   padding: 100px;
 }
 
+.my-skills{
+  padding: 100px;
+}
+
 .timeline {
   position: relative;
   padding-left: 30px;
 }
 
+.my-skills1{
+  position: relative;
+  padding-left: 30px;
+}
+
 .timeline::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -242,8 +252,9 @@ body {
   background-color: black;
 }
 
+
 .date-item::before {
-  content: "";
+  content: '';
   position: absolute;
   left: -8px;
   top: 5px;
@@ -266,9 +277,43 @@ body {
   font-size: 1em;
 }
 
+
+.my-skills1 h2{
+  color: burlywood;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 3em;
+  padding-left: 100px;
+}
+
+.my-skills1 p{
+  padding-left: 110px;
+  font-weight: 100;
+}
+
+
+
 .date-item p {
   font-size: 0.95em;
   line-height: 1.7;
+}
+
+.my-skills1 p{
+  font-size: 0.95em;
+  line-height:1.7;
+}
+
+.my-skills2 p{
+  font-size: 0.95em;
+  line-height:1.7;
+  padding-left: 100px;
+  font-size: 20;
+}
+
+.my-skills1 h3{
+  font-style: italic;
+  padding-left: 100px;
+  padding-top: 20px;
 }
 
 .work-section {
@@ -354,6 +399,7 @@ body {
   object-position: center 30%;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
 }
 /* .container{
   display: flex;
