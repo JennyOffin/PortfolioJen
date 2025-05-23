@@ -5,7 +5,7 @@
 
 body {
   font-family: sans-serif, "Times New Roman", Times, serif;
-  background-color: beige;
+  background-color: rgb(235, 240, 183);
   color: black;
   max-width: 100vw;
   overflow-x: hidden;
@@ -86,49 +86,63 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  flex-wrap: wrap;
-  align-items: center;
 }
 .hero-content{
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  width: 60%;
+  width: 50%;
   padding-top: 90px;
   justify-content: center;
   text-align: center;
-
 }
 
 .hero-image{
+  padding-top: 50px;
  width: 40%;
- padding-right: 100px;
+ /* padding-right: 40px */
  /* height: 90px */
 }
 
 .hero-image img{
   object-fit: cover;
-  height: 500px;
-  width: 100%;
+  /* height: 500px; */
+  width: 100%
 }
 
 .resume-button{
-  width: fit-content;
+  width: 150px;
   margin-left: 45%;
   padding: 12px;
   border-radius: 12px;
   border: none;
   background-color: burlywood;
+  padding: 20px;
+
   
 }
 
 .resume-button a{
   text-decoration: none;
-  color: white;
+  color: white
+
 }
 
 .resume-button:hover{
   background-color:aquamarine;
+}
+.greeting{
+ font-size: 50px;
+ font-weight: bold;
+}
+
+.title{
+font-size: 70px;
+font-weight: bold;
+}
+.location{
+  font-size: 30px;
+  font-family: sans-serif;
 }
 
 .container h2{
@@ -409,6 +423,7 @@ body {
 
 .section-5{
   height: 40vh;
+  margin-left: 72px;
   
   /* background-color: cadetblue; */
 
@@ -445,6 +460,14 @@ body {
 .last-part{
   width: 50%;
   /* background-color: blue; */
+  font-size: 20px;
+  margin-bottom: 60px;
+  font-size: 40px;
+  font-style: italic;
+  
+}
+
+#part{
   font-size: 20px;
 }
 @media (max-width: 768px) {
